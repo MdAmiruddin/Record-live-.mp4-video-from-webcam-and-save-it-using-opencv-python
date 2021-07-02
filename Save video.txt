@@ -1,6 +1,7 @@
 ﻿import cv2
 
 cap = cv2.VideoCapture(1)
+#Give 0 in the bracket for default webcam
 cod = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter('outputVideo.mp4', cod, 20.0, (640,480))
 
